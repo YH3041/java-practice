@@ -1,2 +1,19 @@
 # Project exclude paths
 /out/
+/_mac
+/.idea
+aws.xml
+colors.scheme.xml
+databaseDrivers.xml
+debugger.xml
+find.xml
+github.xml
+ide.general.xml
+java-practice.iml
+KeyPromoterXSettings.xml
+lightEdit.xml
+project.default.xml
+scala.xml
+scala_config.xml
+vcs.xml
+codestyles
