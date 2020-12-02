@@ -1,7 +1,7 @@
 package chap9;
 
 
-public class main {
+public class Main {
     public static void main(String args[]) {
         AccessModifier acc = new AccessModifier();
         acc.publicMethod();
