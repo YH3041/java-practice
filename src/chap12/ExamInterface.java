@@ -16,12 +16,14 @@ public class ExamInterface {
 interface OpenCloseIf {
 
     public void open();
+
     public void close();
 
 }
 
 interface PaintIf {
     public void red();
+
     public void blue();
 
     // java8부터 추가된 defalue 메소드를 이용해서 인터페이스에서 구현가능

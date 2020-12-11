@@ -17,7 +17,7 @@ public class ExceptionSample {
 
     public void throwException(int number) throws Exception {
         try {
-            if(number > 12) {
+            if (number > 12) {
                 throw new Exception("Number is over than 12");
             }
         } catch (Exception e) {
@@ -29,7 +29,7 @@ public class ExceptionSample {
     //직접 만든 예외 던지기
     public void throwException2(int number) throws MyException {
         try {
-            if(number > 12) {
+            if (number > 12) {
                 throw new MyException("Number is over than 12");
             }
             //예외 이름
@@ -55,7 +55,7 @@ public class ExceptionSample {
         try {
             System.out.println(intArray[5]);
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Exception occured.");
             System.out.println(intArray.length);
 
@@ -79,7 +79,7 @@ public class ExceptionSample {
         int[] intArray = new int[5];
         try {
             System.out.println(intArray[5]);
-        }catch (NullPointerException e) {
+        } catch (NullPointerException e) {
             System.out.println("NullPointerException occured");
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException occured");

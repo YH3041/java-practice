@@ -21,7 +21,7 @@ enum ExamEnum2 {
         this.amount = amount;
     }
 
-    public int  getAmount() {
+    public int getAmount() {
         return amount;
     }
 

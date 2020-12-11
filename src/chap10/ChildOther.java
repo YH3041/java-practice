@@ -1,10 +1,11 @@
 package chap10;
 
-public class ChildOther extends Parent{
+public class ChildOther extends Parent {
     public ChildOther() {
     }
 
     public void printName() {
-        System.out.println("printName() - ChildOther");;
+        System.out.println("printName() - ChildOther");
+        ;
     }
 }

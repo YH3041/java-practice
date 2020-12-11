@@ -9,6 +9,7 @@ public class StringSample {
         sample.equalCheck();
 
     }
+
     public void constructors() {
         try {
             String str = "한글";
@@ -32,17 +33,18 @@ public class StringSample {
             e.printStackTrace();
         }
     }
+
     //null 체크
     public boolean nullCheck(String text) {
 //        int textLength = text.length();
 //        System.out.println(textLength);
-        if(text == null) return true;
+        if (text == null) return true;
         else return false;
     }
 
     //재사용을 위한 메소드
     public void printByteArray(byte[] array) {
-        for(byte data : array) {
+        for (byte data : array) {
             System.out.println(data + " ");
         }
         System.out.println();
@@ -50,9 +52,9 @@ public class StringSample {
 
     //문자열을 확인하는 메소드
     public void compareCheck() {
-      String text = "You must know String class.";
-      System.out.println("text.length() = " + text.length());
-      System.out.println("text.isEmpty() = " + text.isEmpty());
+        String text = "You must know String class.";
+        System.out.println("text.length() = " + text.length());
+        System.out.println("text.isEmpty() = " + text.isEmpty());
     }
 
     //문자열을 비교하는 메소드
@@ -60,15 +62,15 @@ public class StringSample {
         String text1 = "Check value";
         String text2 = new String("Check value");
         String text3 = "check value";
-        if(text1 == text2) {
+        if (text1 == text2) {
             System.out.println("text1 == text2 result is same.");
         } else {
             System.out.println("text1 == text2 result is different.");
         }
-        if(text1.equals("Check value")) {
+        if (text1.equals("Check value")) {
             System.out.println("text.equals(text2) result is same.");
         }
-        if(text1.equalsIgnoreCase(text3)) {
+        if (text1.equalsIgnoreCase(text3)) {
             System.out.println("text.equalsIgnoreCase(text3) result is same.");
         }
     }

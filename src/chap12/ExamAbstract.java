@@ -21,6 +21,7 @@ abstract class Animal {
     // 추상메소드, 메소드, 멤버필드, 생성자 정의할 수 있다.
     // 추상메소드는 내용을 정의할 수 없다.
     public abstract void cry();
+
     public abstract void behavior();
 }
 

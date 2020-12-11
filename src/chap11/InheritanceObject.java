@@ -5,6 +5,7 @@ public class InheritanceObject {
         InheritanceObject obj = new InheritanceObject();
         obj.toStringMethod(obj);
     }
+
     //toString 오버라이딩
     public String toString() {
         return "InheritanceObject class";

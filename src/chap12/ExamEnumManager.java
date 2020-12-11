@@ -11,8 +11,8 @@ public class ExamEnumManager {
 //        System.out.println(value.getAmount());
 
         //values를 이용한 호출
-        ExamEnum2 []valueList = ExamEnum2.values();
-        for(ExamEnum2 value : valueList) {
+        ExamEnum2[] valueList = ExamEnum2.values();
+        for (ExamEnum2 value : valueList) {
             System.out.println(value);
         }
     }
