@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class MapSample {
     public static void main(String args[]) {
         MapSample sample = new MapSample();
-        sample.checkProperties();
+        sample.checkHashMap();
     }
 
     public void checkHashMap() {
@@ -16,15 +16,15 @@ public class MapSample {
 
         map.put("C", "c");
         map.put("D", "d");
-        Collection<String> Values = map.values();
-        for(String tempValue : Values) {
-            System.out.println(map.get(tempValue));
-        }
+//        Collection<String> Values = map.values();
+//        for(String tempValue : Values) {
+//            System.out.println(map.get(tempValue));
+//        }
 
-        /*Set<String> KeySet = map.keySet();
+        Set<String> KeySet = map.keySet();
         for(String tempKey : KeySet) {
-            System.out.println(tempKey + " = " + map.get(tempKey));
-        }*/
+            System.out.println(tempKey + " = " + map.values());
+        }
     }
 
     public void checkHashMapEntry() {
