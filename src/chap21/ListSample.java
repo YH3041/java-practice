@@ -1,7 +1,6 @@
 package chap21;
 
-import chap18.StringSample;
-
+import java.util.Stack;
 import java.util.ArrayList;
 
 public class ListSample {
@@ -22,7 +21,7 @@ public class ListSample {
         list.add("C");
         list.add("D");
         list.add("E");
-        list.add(1,"A1");
+        list.add(1, "A1");
 
         /*for(String tempData : list) {
             System.out.println(tempData);
@@ -35,7 +34,7 @@ public class ListSample {
         ArrayList<String> list3 = new ArrayList<String>(list); //list의 값들을 복사할 경우 list3 생성과 동시에 할당
         list2.add("0 ");
         list2.addAll(list); //list 객체의 값들을 list2에 추가
-        for(String tempData : list2) {
+        for (String tempData : list2) {
             System.out.println(tempData);
         }
 
@@ -49,8 +48,8 @@ public class ListSample {
         list.add("D");
         list.add("E");
         int listSize = list.size();
-        for(int loop = 0; loop < listSize; loop++) {
-            System.out.println("list.get("+ loop +") = " + list.get(loop));
+        for (int loop = 0; loop < listSize; loop++) {
+            System.out.println("list.get(" + loop + ") = " + list.get(loop));
         }
     }
 
@@ -67,8 +66,19 @@ public class ListSample {
         ArrayList<String> temp = new ArrayList<String>();
         temp.add("A");
         list.removeAll(temp);
-        for(int loop = 0; loop < list.size(); loop++) {
+        for (int loop = 0; loop < list.size(); loop++) {
             System.out.println(list.get(loop));
+        }
+    }
+
+    public void checkStack() {
+        Stack<Integer> intStack = new Stack<Integer>();
+        for(int loop = 0; loop < 5; loop++) {
+            intStack.push(loop);
+            System.out.println(intStack.peek());
+        }
+        while(!intStack.empty()) {
+            System.out.println(intStack.pop());
         }
     }
 
