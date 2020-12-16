@@ -11,8 +11,8 @@ public class RunThreads {
     public void runBasic() {
         RunnbleSample runnable = new RunnbleSample();
         ThreadSample thread = new ThreadSample();
-        new Thread(runnable).start(); // Runnable 실행
-        thread.start(); // Thread 실행
+            new Thread(runnable).start(); // Runnable 실행
+            thread.start(); // Thread 실행
         System.out.println("RunThreads.runBasic() method is ended.");
     }
 
