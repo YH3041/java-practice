@@ -11,7 +11,7 @@ public class MapSample {
 
     public void checkHashMap() {
         HashMap<String, String> map = new HashMap<String, String>(); // HashMap 클래스의 객체 생성
-        map.put("A", "a"); // 데이터 추가
+        map.put("", "a"); // 데이터 추가
         System.out.println(map.get("A"));
 
         map.put("C", "c");
