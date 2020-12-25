@@ -9,7 +9,7 @@ public class Driver {
         animals[0] = new Cat();
         animals[1] = new Dog();
 
-        for(int i = 0; i < animals.length; i++) {
+        for (int i = 0; i < animals.length; i++) {
             animals[i].cry();
         }
     }

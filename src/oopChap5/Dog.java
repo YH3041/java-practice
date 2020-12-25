@@ -1,4 +1,4 @@
-package oopChap5.SRP;
+package oopChap5;
 
 //단일 책임 원칙을 지키지 않은 if문
 //class Dog {
