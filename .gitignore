@@ -1,2 +1,7 @@
 # Project exclude paths
 /out/
+/_mac/
+/.idea/
+/codestyles/
+/java-practice.iml/
+
